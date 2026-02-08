@@ -1613,8 +1613,8 @@ body {
 
 .empty-column-dropzone:hover,
 .empty-column-dropzone.active {
-  border-color: rgba(214, 216, 118, 0.4);
-  background-color: rgba(214, 216, 118, 0.05);
+  border-color: rgba(148, 163, 184, 0.4);
+  background-color: rgba(148, 163, 184, 0.05);
 }
 
 /* Drag overlay card styling */
