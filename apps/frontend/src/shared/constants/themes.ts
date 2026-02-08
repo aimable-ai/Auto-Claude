@@ -15,6 +15,12 @@ import type { ColorThemeDefinition } from '../types/settings';
  */
 export const COLOR_THEMES: ColorThemeDefinition[] = [
   {
+    id: 'aimable',
+    name: 'Aimable',
+    description: 'Fresh, energetic lime with blue accents',
+    previewColors: { bg: '#FFFFFF', accent: '#004CFB', darkBg: '#080C15' }
+  },
+  {
     id: 'default',
     name: 'Default',
     description: 'Oscura-inspired with pale yellow accent',

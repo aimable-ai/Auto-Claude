@@ -1027,6 +1027,140 @@
   --shadow-focus: 0 0 0 3px rgba(74, 222, 128, 0.3);
 }
 
+/* ============================================
+   AIMABLE THEME (Light)
+   Fresh lime theme with deep blue undertones
+   ============================================ */
+[data-theme="aimable"] {
+  /* Backgrounds */
+  --background: #FFFFFF;
+  --foreground: #1A1A2E;
+
+  /* Card surfaces */
+  --card: #FFFFFF;
+  --card-foreground: #1A1A2E;
+
+  /* Primary accent - blue for contrast against lime */
+  --primary: #004CFB;
+  --primary-foreground: #FFFFFF;
+
+  /* Secondary */
+  --secondary: #E6F0FF;
+  --secondary-foreground: #1A1A2E;
+
+  /* Muted */
+  --muted: #F8FAFC;
+  --muted-foreground: #64748B;
+
+  /* Accent */
+  --accent: #E6F0FF;
+  --accent-foreground: #004CFB;
+
+  /* Destructive */
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+
+  /* Borders and inputs */
+  --border: #E2E8F0;
+  --input: #E2E8F0;
+  --ring: #004CFB;
+
+  /* Sidebar */
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1A1A2E;
+
+  /* Popover */
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A2E;
+
+  /* Semantic colors */
+  --success: #059669;
+  --success-foreground: #FFFFFF;
+  --success-light: #D1FAE5;
+  --warning: #D97706;
+  --warning-foreground: #FFFFFF;
+  --warning-light: #FEF3C7;
+  --info: #2563EB;
+  --info-foreground: #FFFFFF;
+  --info-light: #DBEAFE;
+  --error: #DC2626;
+  --error-light: #FEE2E2;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+  --shadow-focus: 0 0 0 3px rgba(0, 76, 251, 0.2);
+}
+
+/* ============================================
+   AIMABLE THEME (Dark)
+   Fresh lime theme with deep blue undertones
+   ============================================ */
+[data-theme="aimable"].dark {
+  /* Backgrounds */
+  --background: #080C15;
+  --foreground: #F8FAFC;
+
+  /* Card surfaces */
+  --card: #0F141C;
+  --card-foreground: #F8FAFC;
+
+  /* Primary accent - bright blue for dark mode */
+  --primary: #0066FF;
+  --primary-foreground: #080C15;
+
+  /* Secondary */
+  --secondary: #0B0F18;
+  --secondary-foreground: #F8FAFC;
+
+  /* Muted */
+  --muted: #090D16;
+  --muted-foreground: #A1A1B5;
+
+  /* Accent */
+  --accent: #1E2F50;
+  --accent-foreground: #0066FF;
+
+  /* Destructive */
+  --destructive: #F87171;
+  --destructive-foreground: #080C15;
+
+  /* Borders and inputs */
+  --border: #1E2635;
+  --input: #1E2635;
+  --ring: #0066FF;
+
+  /* Sidebar */
+  --sidebar: #090D16;
+  --sidebar-foreground: #F8FAFC;
+
+  /* Popover */
+  --popover: #121A25;
+  --popover-foreground: #F8FAFC;
+
+  /* Semantic colors */
+  --success: #34D399;
+  --success-foreground: #080C15;
+  --success-light: #134E4A;
+  --warning: #FBBF24;
+  --warning-foreground: #080C15;
+  --warning-light: #451A03;
+  --info: #60A5FA;
+  --info-foreground: #080C15;
+  --info-light: #1E3A8A;
+  --error: #F87171;
+  --error-light: #450A0A;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.7);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.8);
+  --shadow-focus: 0 0 0 3px rgba(0, 102, 255, 0.3);
+}
+
 /* Base styles */
 * {
   border-color: var(--border);
