@@ -1,6 +1,6 @@
-# Auto Claude Guides
+# unt.aimable Guides
 
-Detailed documentation for Auto Claude setup and usage.
+Detailed documentation for unt.aimable setup and usage.
 
 ## Available Guides
 
